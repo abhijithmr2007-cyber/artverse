@@ -1,0 +1,177 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f5f0;
+    text-align: center;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+main {
+    padding: 100px 20px;
+}
+
+main h2 {
+    font-size: 36px;
+}
+
+main a {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+}
+
+.form-box {
+    background-color: white;
+    width: 320px;
+    max-width: 85%;
+    margin: 70px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ccc;
+}
+
+.form-box h2 {
+    margin-bottom: 25px;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-box button {
+    width: 100%;
+    padding: 12px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background-color: #555;
+}
+
+.form-box p {
+    margin-top: 20px;
+}
+
+/* Individual Artwork Pages */
+
+.art-details {
+    background-color: white;
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ccc;
+}
+
+.art-details img {
+    width: 100%;
+    max-width: 500px;
+    max-height: 450px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.art-details h2 {
+    font-size: 30px;
+    color: #222;
+}
+
+.art-details p {
+    line-height: 1.8;
+    color: #444;
+}
+
+.similar-art {
+    background-color: #f8f5f0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.art-details a {
+    display: inline-block;
+    background-color: #222;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.art-details a:hover {
+    background-color: #555;
+}
+
+@media (max-width: 600px) {
+    .art-details {
+        margin: 20px 12px;
+        padding: 20px;
+    }
+}
+
+/* Similar Artwork Cards */
+
+.similar-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 25px 0;
+}
+
+.similar-card {
+    background: #f8f5f0;
+    width: 180px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #ddd;
+}
+
+.similar-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.similar-card h4 {
+    margin: 10px 0 5px;
+}
+
+.similar-card p {
+    font-size: 14px;
+    margin: 5px 0;
+}
